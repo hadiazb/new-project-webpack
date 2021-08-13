@@ -1,0 +1,21 @@
+/* Import Settings */
+@import './base/settings';
+
+/* Import Base */
+@import './base/base';
+
+/* Import Ui */
+@import './base/ui';
+
+/* Import Animations */
+@import './animations/animations';
+
+/* Import Components */
+@import './components/index';
+
+/* Import Pages */
+@import './pages/index';
+
+body {
+	background-color: red;
+}

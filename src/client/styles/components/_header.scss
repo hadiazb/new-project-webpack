@@ -1,0 +1,136 @@
+.header {
+	margin: 0;
+	padding: 0;
+
+	&__top {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0 auto;
+		padding: 5px 2rem;
+		max-width: 75rem;
+
+		&__items {
+			display: flex;
+			justify-content: space-between;
+
+			&__item {
+				margin-left: 1rem;
+			}
+		}
+
+		.link {
+			text-align: center;
+			font-size: 0.9rem;
+		}
+	}
+
+	&__container {
+		border: 1px solid #2b82bd;
+		box-shadow: 0 3px 1px 0px #2b82bd;
+		border-radius: 8px;
+		margin: 0 auto;
+		max-width: 75rem;
+		padding: 15px 2rem;
+
+		&__middle {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			&__image {
+				width: 200px;
+			}
+
+			&__sesion {
+				width: 570px;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				padding: 5px 0;
+
+				&__head {
+					padding-right: 10px;
+					color: rgb(70, 68, 68);
+
+					&__user {
+						text-align: right;
+						font-size: 0.9rem;
+					}
+
+					&__status {
+						width: 100%;
+						display: flex;
+						justify-content: flex-end;
+						align-items: center;
+						margin-top: 5px;
+
+						&__profile {
+							margin-left: 10px;
+							font-size: 0.8rem;
+							color: rgb(70, 68, 68);
+
+							&:hover {
+								text-decoration: underline;
+							}
+						}
+
+						&__close {
+							margin-left: 10px;
+							font-size: 0.8rem;
+							color: rgb(70, 68, 68);
+
+							&:hover {
+								text-decoration: underline;
+							}
+						}
+					}
+				}
+
+				&__bandera {
+					width: 100px;
+					height: 40px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					background-color: red;
+				}
+			}
+
+			&__buttom {
+				border: none;
+				outline: none;
+				width: 150px;
+				border-radius: 4px;
+				background-color: #e25928;
+				box-shadow: 0 2px 0 0 #b9451a;
+				height: 30px;
+				color: #ffffff;
+				font-weight: 700;
+				font-size: 14px;
+				cursor: pointer;
+			}
+		}
+
+		&__optionheader {
+			margin-top: 15px;
+			margin-bottom: 5px;
+
+			&__items {
+				display: flex;
+				justify-content: flex-start;
+				align-items: center;
+
+				&__item {
+					margin-right: 50px;
+
+					.link {
+						color: #0072b7;
+						font-size: 12px;
+						font-weight: bold;
+					}
+				}
+			}
+		}
+	}
+}

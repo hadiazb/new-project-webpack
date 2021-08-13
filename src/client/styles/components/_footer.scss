@@ -1,0 +1,70 @@
+.footer {
+	margin: 0;
+	padding: 0;
+
+	&__top {
+		margin: 0 auto;
+		max-width: 75rem;
+		padding: 5px 2rem;
+
+		&__items {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+
+			&__item {
+				margin: 3px 5px;
+
+				&__link {
+					text-align: center;
+					display: block;
+					font-size: 0.9rem;
+					font-weight: 400;
+					color: black;
+
+					&:hover {
+						text-decoration: underline;
+						font-weight: 500;
+					}
+				}
+			}
+		}
+	}
+
+	&__middle {
+		margin: 0 auto;
+		max-width: 75rem;
+		padding: 5px 2rem;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+
+		&__span {
+			color: #999;
+			font-size: 11px;
+			width: 250px;
+		}
+	}
+
+	&__buttom {
+		margin: 0 auto;
+		max-width: 75rem;
+		padding: 5px 2rem;
+
+		&__span {
+			padding: 0 10px;
+			margin: 5px 0;
+			display: inline-block;
+			text-align: center;
+			color: #999999;
+			font-size: 12px;
+		}
+
+		&__text {
+			margin: 5px 0;
+			padding: 0 10px;
+			font-size: 12px;
+		}
+	}
+}
